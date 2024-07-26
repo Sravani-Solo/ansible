@@ -1,0 +1,7 @@
+- name : ping playbook
+  hosts : WEB # add WEB IP in Inventory # Target host
+  tasks:
+  - name : ping the server
+    ansible.builtin.ping:
+
+# run with "ansible-playbook -i inventory -e ansible_user=centos -e ansible_password=DevOps321 01-playbook.yaml" in server

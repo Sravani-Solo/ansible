@@ -1,0 +1,21 @@
+192.187.56.20
+192.187.56.30
+
+[WEB]
+192.187.56.3
+192.187.56.4
+
+[CART]
+192.187.56.3
+192.187.56.4
+
+[CATALOGUE]
+192.187.56.3
+192.187.56.4
+
+[Roboshop:children]
+WEB
+CART
+CATALOGUE
+
+# You can save this with extention ini Eg: inventory.ini
